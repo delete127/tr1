@@ -1,2 +1,4 @@
 language: shell
 script: echo "hello"
+before_script: echo "going to build"
+after_script: echo "build sucessfull"
