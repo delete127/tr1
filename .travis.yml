@@ -1,5 +1,5 @@
 language: shell
-script: echo "hello"
+script: bash ./test
 before_script: echo "going to build"
 after_script: echo "build sucessfull"
 notifications:
